@@ -1,19 +1,73 @@
 <html>
-    <head>
-        <style>
-            h1{
-                text-decoration: underline; 
-                font-size: 50px;
-                color: rgb(56, 194, 148);
+
+<head>
+    <script>
+        let pos = 0;
+        function move() {
+            var elem = document.getElementById("title");
+            elem.style.top = "30%";
+            elem.innerHTML = "Bye cruel World!";
+        }
+        function moverPelota() {
+            const elem = document.getElementById("pelota");
+            elem.style.top = `${pos + 5}px`;
+            pos = pos + 5;
+            console.log(pos);
+        }
+    </script>
+    <style>
+        h1 {
+            text-decoration: underline;
+            font-size: 50px;
+            color: rgb(56, 194, 148);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h1:hover {
+            color: pink;
+            cursor: pointer;
+        }
+
+        #pelota {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(197, 116, 235);
+            border-radius: 50%;
+            border: 2px solid rgb(178, 83, 223);
+            position: absolute;
+            animation: rebota 1s alternate infinite;
+        }
+
+        @-webkit-keyframes rebota {
+            0% {
+                top: 600px;
+                height: 50px;
             }
-        </style>
-        <title>PRIMERA WEB</title>
-    </head>
-        <body>
-            <center><h1>Hola mundo!</h1></center>
-            <h2>Hola mundo!</h2> 
-            <h3>Hola mundo!</h3> 
-            Hola mundo!
-        </body> 
+            10% {
+                top: 560px;
+                height: 100px;
+            }
+            100%{
+                top: 200px;
+                height: 100px;
+            }
+        }
+    </style>
+    <title>PRIMERA WEB</title>
+</head>
+
+<body onload = "setInterval(moverPelota, 100)">
+    <h1 id="title" onclick="move()">Hola mundo!</h1>
+    <h2>Hola mundo!</h2>
+    <h3>Hola mundo!</h3>
+    <div id="pelota" onclick="pelota()"></div>
+    Hola mundo!
+</body>
+
 </html>
 <!--Esto es un comentario-->
+<!-- h1: hover, es para cambiar el color del titulo cuando se pasa el cursor -->
+<!-- los elemtos genericos se hacen con <div></div> -->
