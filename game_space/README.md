@@ -6,4 +6,5 @@
 #### If you kill all the ships YOU WIN
 #### If the laser of an enemy ship hits you, you lose
 -------------------------------------------------
-GIF
+
+<img src="https://github.com/mgh99/Programacion_frontend/blob/main/game_space/space_invaders.gif" alt="App Screenshot" style="zoom: 70%" />
