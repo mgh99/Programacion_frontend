@@ -1,1 +1,9 @@
-
+# SPACE INVADERS GAME :rocket:
+------------------------------------------------
+## Instructions 📑
+* Use the keyboards arrows to move your spaceship around the screen and avoid enemy ship lasers
+* Use the space bar key to shoot the enemies ships
+#### If you kill all the ships YOU WIN
+#### If the laser of an enemy ship hits you, you lose
+-------------------------------------------------
+GIF
