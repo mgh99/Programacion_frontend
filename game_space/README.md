@@ -7,4 +7,4 @@
 #### If the laser of an enemy ship hits you, you lose
 -------------------------------------------------
 
-<img src="https://github.com/mgh99/Programacion_frontend/blob/main/game_space/space_invaders.gif" alt="App Screenshot"  />
+<div aling = "center"><img src="https://github.com/mgh99/Programacion_frontend/blob/main/game_space/space_invaders.gif" alt="App Screenshot" /></div>
