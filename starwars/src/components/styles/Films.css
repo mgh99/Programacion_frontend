@@ -1,0 +1,23 @@
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#cursiva {
+    font-style: italic;
+    font-size: 17px;
+}
+
+.details-films {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: justify;
+    border: 3px solid #fad11d;
+    border-radius: 22px;
+    
+}
+
+#text-films {
+    margin: 10px;
+}

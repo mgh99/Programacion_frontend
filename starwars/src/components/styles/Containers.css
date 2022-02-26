@@ -1,0 +1,9 @@
+.menu {
+    display: flex;
+    align-items: row;
+    justify-content: space-around;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
