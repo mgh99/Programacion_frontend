@@ -43,7 +43,7 @@ Estas son las dependencias de nuestro proyecto
 
 ## DEMO
 
-<a href = "https://swapi14.herokuapp.com/"></a>
+https://swapi14.herokuapp.com/"
 
 ## ✨ Participantes
 
