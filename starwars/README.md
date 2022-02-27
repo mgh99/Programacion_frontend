@@ -3,7 +3,8 @@
 * Star Wars web that fetch data from SWAPI - Star Wars API
 ---------------------------------------------------------------------------------------------
 Funcionalidades: 
-* GET all planets. Filtra los planetas por nombre en el buscador de la API
+* GET all films. Filtra las películas por nombre en el buscador de la API
+* Arriba a la izquierda hay un botón de play para poner música mientras se usa el buscador
 
 ## 🚩 Para empezar 
 
