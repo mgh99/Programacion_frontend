@@ -67,7 +67,7 @@ Y para el frontEnd
 
 ## Visualización
 
-<div align = "center"><img src="https://github.com/smolpeceresd/FrontEnd_Practica_4/blob/main/img/captura%20form.jpeg" alt="App Screenshot" style="zoom: 70%" /></div>
+<div align = "center"><img src="https://github.com/mgh99/Programacion_frontend/blob/main/Formulario_mongoDB/img/captura%20form.jpeg" alt="App Screenshot" style="zoom: 70%" /></div>
 
 ## ✨ Participantes
 
