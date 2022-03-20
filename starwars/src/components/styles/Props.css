@@ -1,0 +1,40 @@
+.puntos {
+    list-style-type: disc;
+    font-size: 20px;
+    margin:2px;
+    justify-content: center;
+}
+
+.Content-films {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#info-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: justify;
+    align-items: center;
+}
+
+.music {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 25px;
+}
+
+#music-content {
+    margin-top: -280px;
+
+}
+
+#button-music {
+    allowscriptaccess: "always";
+    allowfullscreen: "true";
+}
