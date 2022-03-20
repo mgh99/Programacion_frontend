@@ -1,0 +1,37 @@
+header {
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(176, 184, 229, 1) 21%, rgba(255, 255, 255, 1) 100%);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 592px;
+}
+
+footer {
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(360deg, rgba(176, 184, 229, 1) 21%, rgba(255, 255, 255, 1) 100%);
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    border: 27px;
+    border-radius: 27px;
+    opacity: 60%;
+}
+
+.Basura {
+    height: 34px;
+    width: 33px;
+}

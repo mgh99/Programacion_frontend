@@ -1,0 +1,31 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node ./src/app.ts",
+        "dev": "nodemon --watch src/**/* -e ts,json --exec node -r ts-node/register ./src/app.ts",
+        "dev-inspect": "nodemon --watch src/**/* -e ts,json --exec node --inspect-brk -r ts-node/register src/app.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/express": "^4.17.13",
+        "@types/node": "^17.0.21",
+        "axios": "^0.26.1",
+        "cors": "^2.8.5",
+        "express": "^4.17.3",
+        "mongodb": "^4.4.1",
+        "mongoose": "^6.2.7",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.15",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.2"
+    },
+    "devDependencies": {
+        "@types/morgan": "^1.9.3"
+    }
+}
