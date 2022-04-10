@@ -1,0 +1,61 @@
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.character-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 40px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+img {
+    max-width: 120%;
+    max-height: 120%;
+    border-radius: 30%;
+}
+
+
+
+.heading {
+    font-family: 'Schoolbell', serif;
+    font-size: 100px;
+    line-height: 1.0;
+    color: #02b1c8;
+    margin: 20px 0 25px;
+    text-shadow: 0.02em 0.02em 0.02em #7ffa67,
+        -0.02em -0.02em 0.02em #7ffa67,
+        0 0 0.2em #7ffa67;
+    animation: textShadow 2s linear infinite alternate;
+}
+
+.heading span {
+    font-size: 50px;
+    margin: 0 -12px;
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    min-height: 100vh;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)),
+        #111 url(https://source.unsplash.com/RF4p4rTM-2s/1280x720) no-repeat center fixed;
+    background-size: cover;
+}
