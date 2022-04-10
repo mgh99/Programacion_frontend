@@ -1,4 +1,4 @@
-# Formulario
+# Rick y Morty con paginación y modal
 * Stack: React, Typescript, graphQL, @apollo/client y css 
 * Muestra un listado de todos los personajes por paginación
 * Al jacer click sobre un personaje se abre un modal con lo detalles del mismo
