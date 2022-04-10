@@ -1,7 +1,7 @@
 import react, { FC } from "react";
 import "./Styles/CharactersRM.css"
 
-const Footer: FC = () => {
+const Header: FC = () => {
     return (
         <div>
             <header>
@@ -11,4 +11,4 @@ const Footer: FC = () => {
     )
 }
 
-export default Footer;
+export default Header;

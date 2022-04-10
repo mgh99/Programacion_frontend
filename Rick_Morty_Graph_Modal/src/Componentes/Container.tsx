@@ -3,7 +3,7 @@ import "./Styles/Container.css";
 
 const Container: FC = ({ children }) => {
     return (
-        <div>
+        <div className = "container">
             {children}
         </div>
     )

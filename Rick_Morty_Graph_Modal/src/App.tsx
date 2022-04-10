@@ -4,7 +4,7 @@ import './App.css';
 import Container from './Componentes/Container';
 import CharactersRM from './Componentes/CharactersRM';
 import Pages from './Componentes/Pages';
-import Footer from './Componentes/Footer';
+import Header from './Componentes/Header';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
@@ -21,14 +21,14 @@ const App: FC = () => {
 
   return (
     <Container>
-      <ApolloProvider client={client} >
-        <Footer />
-        <CharactersRM page={page} />
-        <Pages
-          page={page}
-          totalPages={totalPages}
-          otherPage={otherPage}
-        />
+        <ApolloProvider client={client} >
+        <Header/>
+          <CharactersRM page={page} />
+            <Pages
+              page={page}
+              totalPages={totalPages}
+              otherPage={otherPage}
+            />
       </ApolloProvider>
     </Container>
   );
