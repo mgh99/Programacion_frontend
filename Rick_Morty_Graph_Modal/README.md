@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# Formulario
+* Stack: React, Typescript, graphQL, @apollo/client y css 
+* Muestra un listado de todos los personajes por paginación
+* Al jacer click sobre un personaje se abre un modal con lo detalles del mismo
+-----------------------------------------------------------------
+### Funcionalidades
+* Paginación
+* Modal con los detalles de los personajes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚩 Para empezar
+Estas instrucciones te permitirán obtener una copia del proyecto en su maquina local para empezar a utilizarlo.
+### Instalación 
+Instalación de dependencias 
+```
+npm install
+```
 
-## Available Scripts
+Compilación en su equipo local
 
-In the project directory, you can run:
+```
+npm start
+```
 
-### `npm start`
+## 🖇 Dependencias
+En el archivo de `package.json´
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Estas son las dependencias de nuestro proyecto 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```json
+"dependencies": {
+    "@apollo/client": "^3.5.10",
+    "@emotion/styled": "^11.8.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.26",
+    "@types/react": "^17.0.44",
+    "@types/react-dom": "^17.0.15",
+    "pro": "^0.3.0",
+    "react": "^17.0.0",
+    "react-dom": "17.0.0",
+    "react-scripts": "5.0.0",
+    "sans": "^1.0.0",
+    "sans-serif": "^1.0.0",
+    "source": "^0.0.3",
+    "typescript": "^4.6.3",
+    "web-vitals": "^2.1.4"
+    },
+```
 
-### `npm test`
+## Versión Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## ✨ Participantes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<div align = "center">
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/santiago-molpeceres-d%C3%ADaz-ab9087211/"><img src="https://avatars.githubusercontent.com/u/54994511?v=4" width="100px;" alt=""/><br /><sub><b>Santiago Molpeceres</b></sub></a><br /><a href="https://github.com/smolpeceresd/Programacion_Internet" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/mar%C3%ADa-gonz%C3%A1lez-herrero-56bb21177/"><img src="https://avatars.githubusercontent.com/u/43043718?v=4" width="100px;" alt=""/><br /><sub><b>María González</b></sub></a><br /><a href="https://github.com/mgh99/Programacion_sistemas_Internet" title="Code">💻</a></td>
+  </tr>
+</table>
+</div>
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- ALL-CONTRIBUTORS-LIST:END -->
