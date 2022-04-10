@@ -6,6 +6,7 @@
 ### Funcionalidades
 * Paginación
 * Modal con los detalles de los personajes
+* Si hay un error se carga una página de error
 
 ## 🚩 Para empezar
 Estas instrucciones te permitirán obtener una copia del proyecto en su maquina local para empezar a utilizarlo.
