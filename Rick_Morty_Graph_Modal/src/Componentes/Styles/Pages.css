@@ -22,22 +22,74 @@ pre {
     cursor: pointer;
 }
 
-.lastPageNumber {
+.content-pages {
     display: flex;
     flex-direction: row;
-}
-
-.firstPageNumber {
-    display: flex;
-    flex-direction: row;
-}
-
-.hear {
-    font-size: large;
-    border-radius: 40%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+    font-size: 25px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.295);
 }
 
 .size-first {
     font-size: 25px;
+}
+
+
+
+
+
+
+
+.pagination-wrapper {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.page-item {
+    background: white;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 0.25rem;
+    border-radius: 50%;
+    font-weight: 600;
+    color: rgb(0, 153, 255);
+    font-size: 25px;
+    box-shadow: black;
+}
+
+.page-item:hover {
+    background: rgb(0, 153, 255);
+    color: white;
+}
+
+.page-number-item {
+    background: rgba(255, 255, 255, 0.425);
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 0.25rem;
+    border-radius: 50%;
+    font-weight: 600;
+    color: rgb(0, 102, 255);
+    font-size: 25px;
+    box-shadow: black;
+}
+
+.page-actual-number {
+    background: rgb(0, 153, 255);
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.dots {
+    font-size: 25px;
+    color: white;
 }

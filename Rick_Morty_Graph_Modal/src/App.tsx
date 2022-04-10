@@ -15,13 +15,20 @@ const client = new ApolloClient({
 const App: FC = () => {
 
   const [page, setPage] = useState(1);
+  //añadido nuevo
+  const totalPages = 42;
+  const otherPage = (updatePage: number) => setPage(updatePage);
 
   return (
     <Container>
       <ApolloProvider client={client} >
-          <Footer/>
-          <CharactersRM page={page} />
-          <Pages page={page} otherPage={setPage} />
+        <Footer />
+        <CharactersRM page={page} />
+        <Pages
+          page={page}
+          totalPages={totalPages}
+          otherPage={otherPage}
+        />
       </ApolloProvider>
     </Container>
   );

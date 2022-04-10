@@ -39,6 +39,7 @@ export type ICharactersProps = {
 }
 
 export type PageProps = {
+    totalPages: number,
     page: number,
     otherPage: (page: number) => void
 }
