@@ -11,7 +11,9 @@ const CharactersRM: FC<ICharactersProps> = ({page}) => {
 
     const {data, loading, error, refetch} = useQuery<Characters>(GET_CHARACTERS, {variables: {page: page}});
     const [mostrarModal, setMostrarModal] = useState(false);
-    const [characterModal, setCharacterModal] = useState({
+
+    //con esto se puede mostrar el modal
+    const [characterModal, setCharacterModal] = useState({ 
         id: 0,
         name: "",
         status: "",
@@ -28,23 +30,27 @@ const CharactersRM: FC<ICharactersProps> = ({page}) => {
         return <h1>Cargando...</h1>
     }
 
-    if(data) {
+    //en <ModalRickMorty /> se puede acceder a los datos del characterModal
+
+    if(data) { 
         return(
             <div className = "characters">
-                {data!.characters.results.map((e) => <div key = {e.id} onClick = {() => {
-                    setCharacterModal(e);
-                    setMostrarModal(!mostrarModal);
+                {data!.characters.results.map((e) => <div key = {e.id} onClick = {() => { 
+                    setCharacterModal(e); 
+                    setMostrarModal(!mostrarModal); 
                 }}>
-                    <ModalRickMorty character = {characterModal} show={mostrarModal}/>
+                    <ModalRickMorty character = {characterModal} show={mostrarModal}/> 
                     <div className = "character-style">
                         <img src = {e.image}></img>
-                        <div>
+                        <div className = "letras-name">
                             {e.name}
                         </div>
                     </div>
             </div>)}
             </div>
         );
+        
+        //error
     } else {
         return (
             <div>

@@ -27,6 +27,16 @@ img {
     border-radius: 30%;
 }
 
+.letras-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
 
 
 .heading {

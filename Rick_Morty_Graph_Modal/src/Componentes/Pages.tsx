@@ -58,7 +58,7 @@ const Pages: FC<PageProps> = ({ page, otherPage }) => {
                     }
                 }}>Prev</button>
 
-                {FirstPageNumber(page)}
+                {FirstPageNumber(page)} 
                 {PrevPageNumber(page)}
 
                 <pre className="hear" onClick={() => { otherPage(page) }}>{page}</pre>
