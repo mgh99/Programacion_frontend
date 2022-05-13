@@ -1,22 +1,23 @@
-# Formulario
-* Stack: React, mongoDb, Typescript, axios, express, css y @emotion/styled
-* Formulario que guarda los datos en la base de datos de MongoDb, muestra los resultados en una lista y puedes eliminarlos
+# Rick y Morty con paginación y modal
+* Stack: React, Typescript, graphQL, @apollo/client y css 
+* Muestra un listado de todos los personajes por paginación
+* Al jacer click sobre un personaje se abre un modal con lo detalles del mismo
 -----------------------------------------------------------------
 ### Funcionalidades
-* get "/people" -> muestra todos los usuarios en una lista de MongoDb
-* post "/register" -> puedes añadir nuevos usuarios a la base de datos
-* post "/free" -> puedes eliminar un usuario de la base de datos
+* Paginación
+* Modal con los detalles de los personajes
+* Si hay un error se carga una página de error
 
 ## 🚩 Para empezar
 Estas instrucciones te permitirán obtener una copia del proyecto en su maquina local para empezar a utilizarlo.
 ### Instalación 
-Instalación de dependencias tanto en BackEnd como en FrontEnd
+Instalación de dependencias 
 ```
 npm install
 ```
 
 Compilación en su equipo local
-* Abrimos una terminal para cada carpeta (BackEnd y FrontEnd) y compilamos primero el Backend y después el FrontEnd, mediante el siguiente comando:
+
 ```
 npm start
 ```
@@ -24,50 +25,34 @@ npm start
 ## 🖇 Dependencias
 En el archivo de `package.json´
 
-Estas son las dependencias de nuestro proyecto para el Backend
+Estas son las dependencias de nuestro proyecto 
 
 ```json
 "dependencies": {
-        "@types/axios": "^0.14.0",
-        "@types/express": "^4.17.13",
-        "@types/node": "^17.0.21",
-        "axios": "^0.26.1",
-        "cors": "^2.8.5",
-        "express": "^4.17.3",
-        "mongodb": "^4.4.1",
-        "mongoose": "^6.2.7",
-        "morgan": "^1.10.0",
-        "nodemon": "^2.0.15",
-        "ts-node": "^10.7.0",
-        "typescript": "^4.6.2"
-    },
-```
-
-Y para el frontEnd
-
-```json 
- "dependencies": {
-    "@emotion/react": "^11.8.2",
+    "@apollo/client": "^3.5.10",
     "@emotion/styled": "^11.8.1",
-    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.4.1",
     "@types/node": "^16.11.26",
-    "@types/react": "^17.0.40",
-    "@types/react-dom": "^17.0.13",
-    "axios": "^0.26.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "@types/react": "^17.0.44",
+    "@types/react-dom": "^17.0.15",
+    "pro": "^0.3.0",
+    "react": "^17.0.0",
+    "react-dom": "17.0.0",
     "react-scripts": "5.0.0",
-    "typescript": "^4.6.2",
+    "sans": "^1.0.0",
+    "sans-serif": "^1.0.0",
+    "source": "^0.0.3",
+    "typescript": "^4.6.3",
     "web-vitals": "^2.1.4"
-  },
+    },
 ```
 
-## Visualización
+## Versión Demo
 
-<div align = "center"><img src="https://github.com/mgh99/Programacion_frontend/blob/main/Formulario_mongoDB/img/captura%20form.jpeg" alt="App Screenshot" style="zoom: 70%" /></div>
+https://rmmodalgraphql.herokuapp.com/
 
 ## ✨ Participantes
 
