@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+}
+
+.agenda {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+}

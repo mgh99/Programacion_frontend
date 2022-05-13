@@ -1,0 +1,41 @@
+version: "3.2"
+
+services: 
+  api:
+    image: node:16 
+    volumes:
+      - type: bind
+        source: ./api
+        target: /usr/src
+    ports:
+      - 6005:4000
+    command: bash -c "cd /usr/src && npm install && npm run dev"
+    depends_on:
+      - mongo_db
+    environment:
+      - MONGO_URL=mongodb://mongo_db:27017/test
+
+  front:
+    image: node:16
+    environment:
+      REACT_APP_API_URL: http://localhost:6005
+      PORT: 3000
+    volumes:
+      - type: bind
+        source: ./front
+        target: /usr/src
+    depends_on:
+      - api
+    ports:
+      - 3000:3000
+    command: bash -c "cd /usr/src && npm install && npm start"
+
+  mongo_db:
+    image: mongo:5
+    environment:
+      - MONGO_DATA_DIR=/data/db
+    volumes:
+      - ./data:/data/db
+    command: mongodb --logpath=/dev/null
+    ports: 
+      - 27017:27017

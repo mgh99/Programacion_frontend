@@ -1,0 +1,115 @@
+.addContact {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoadd {
+    font-size: 23px;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    padding-left: 25px;
+}
+
+.botonAnadir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-contact-new {
+    background-color: #170923;
+    color: #e34370;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-contact-new2 {
+    background-color: #170923;
+    color: #2353b2;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-contact-new3 {
+    background-color: #062b3e;
+    color: #40aee5;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#name {
+
+}
+
+#phone {
+    
+}
+
+.updateContact {
+
+}
+
+.infoupdate {
+    font-size: 23px;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    padding-left: 25px;
+}
+
+.deleteContact {
+
+}
+
+.infodelete {
+    font-size: 23px;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    padding-left: 25px;
+}
+
+.azContacts {
+
+}
+
+.zaContacts {
+
+}
+
+.filter {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#word-filter{
+    font-size: 26px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.contactContain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+
+
+
