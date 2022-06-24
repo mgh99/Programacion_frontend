@@ -15,4 +15,10 @@ Dichos libros tendrán un botón "comprar en Amazon", al hacer click te llevará
 
 ------------------
 
+## Stack:
+
+Typescript, Axios, React, @emotion/styled, React
+
+------------------------------------
+
 ## Visualizacón
