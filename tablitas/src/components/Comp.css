@@ -1,0 +1,85 @@
+.fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px;
+    align-items: center;
+    margin-left: 39px;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 18px;
+}
+
+#firstfila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nCantidad{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nNombre {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.nProyecto {
+    display: flex;
+    flex-direction: row;
+        
+}
+
+.nVencimiento {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.nBorrar {
+    display: flex;
+    flex-direction: row;
+}
+
+.nEditar {
+    display: flex;
+    flex-direction: row;
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 15px; 
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.filaAÑADIR {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 95px;
+    margin-bottom: 20px;
+}
