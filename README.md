@@ -29,10 +29,18 @@ _Ejercicios y prácticas curso 2021/2022_
 <div align = "center"><img src="https://github.com/mgh99/Programacion_frontend/blob/main/game_space/space_invaders.gif" alt="App Screenshot" style="zoom: 70%" /></div>
 
 ------------------------------------------------------
-## <a href="https://github.com/mgh99/Programacion_frontend/blob/main/rick%20_morty_search/img/test_rickandmorty.gif">Buscador de personajes de Rick y Morty</a>
+## <a href="https://github.com/mgh99/Programacion_frontend/tree/main/rick%20_morty_search">Buscador de personajes de Rick y Morty</a>
 - Visualización
-<div align = "center"><img src="" alt="App Screenshot" style="zoom: 70%" /></div>
+<div align = "center"><img src="https://github.com/mgh99/Programacion_frontend/blob/main/rick%20_morty_search/img/test_rickandmorty.gif" alt="App Screenshot" style="zoom: 70%" /></div>
 
+------------------------------------------------------
+## <a href="https://github.com/mgh99/Programacion_frontend/tree/main/rickMortyFilters">Filtros de Rick y Morty</a>
+
+---------------------------------------------------------
+## <a href="https://github.com/mgh99/Programacion_frontend/tree/main/starwars">SWAPI (API Star Wars)</a>
+- DEMO: https://swapi14.herokuapp.com/
+- Visualización 
+<div align = "center"><img src="https://github.com/mgh99/Programacion_frontend/blob/main/starwars/swapi.PNG" alt="App Screenshot" style="zoom: 70%" /></div>
 
 
 
